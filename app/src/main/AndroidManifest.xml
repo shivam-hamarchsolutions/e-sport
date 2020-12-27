@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="app.puretech.e_sport">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        tools:ignore="ManifestOrder" />
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        tools:ignore="ManifestOrder" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ManifestOrder" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning"
+        tools:targetApi="m">
+        <activity android:name=".activity.SchoolYearlyPlannerTrainerListActivity"></activity>
+        <activity android:name=".activity.SchoolMonthlyPlannerTrainerListActivity" />
+        <activity android:name=".activity.ParentDailyTimeTableActivity" />
+        <activity android:name=".activity.ParentYearlyPlannerDataActivity" />
+        <activity android:name=".activity.ParentYearlyPlannerActivity" />
+        <activity android:name=".activity.ParentMonthlyPlannerDataActivity" />
+        <activity android:name=".activity.ParentMonthlyPlannerActivity" />
+        <activity android:name=".activity.ParentStudentAssessmentBarActivity" />
+        <activity android:name=".activity.ParentStudentAssessmentDataActivity" />
+        <activity android:name=".activity.ParentStudentAssessmentActivity" />
+        <activity android:name=".activity.TrainerStudentAttendanceCalActivity" />
+        <activity android:name=".activity.TrainerStudentAttendanceBarActivity" />
+        <activity android:name=".activity.TrainerStudentListActivity" />
+        <activity android:name=".activity.TrainerStudentAttendenceActivityNew" />
+        <activity android:name=".activity.SchoolYearlyPlannerMonthSubActivity" />
+        <activity android:name=".activity.SchoolYearlyPlannerMonthActivity" />
+        <activity android:name=".activity.SchoolYearlyPlannerActivity" />
+        <activity android:name=".activity.SchoolTrainerDailyTimeTableActivity" />
+        <activity android:name=".activity.SchoolStudentActivityAssessmentBarchartActivity" />
+        <activity android:name=".activity.SchoolStudentActivityAssessmentActivity" />
+        <activity android:name=".activity.SchoolStudentAssessmentListActivity" />
+        <activity android:name=".activity.SchoolStudentAssessmentActivity" />
+        <activity android:name=".activity.TrainerUploadGallaryPhotoActivity" />
+        <activity android:name=".activity.AboutUsActivity" />
+        <activity android:name=".activity.ParentProfileActivity" />
+        <activity android:name=".activity.ParentStudentAttendanceCalActivity" />
+        <activity android:name=".activity.ParentHomeActivity" />
+        <activity android:name=".activity.ParentSingUpActivity" />
+        <activity android:name=".activity.SchoolProfileActivity" />
+        <activity android:name=".activity.SchoolTrainerAttendanceCalActivity" />
+        <activity android:name=".activity.SchoolTrainerAttendanceBarActivity" />
+        <activity android:name=".activity.SchoolTrainerAttendanceActivity" />
+        <activity android:name=".activity.SchoolStudentAttendanceCalActivity" />
+        <activity android:name=".activity.SchoolStudentAttendanceBarActivity" />
+        <activity android:name=".activity.SchoolStudentListActivity" />
+        <activity android:name=".activity.SchoolStudentAttendanceActivity" />
+        <activity android:name=".activity.SchoolEquipmentStockActivity" />
+        <activity android:name=".activity.SchoolGalleryActivity" />
+        <activity android:name=".activity.SchoolYearlyEventsActivity" />
+        <activity
+            android:name=".activity.SchoolTrainerLeaveApplicationActivity"
+            android:hardwareAccelerated="true" />
+        <activity android:name=".activity.SchoolDailyTimeTableActivity" />
+        <activity android:name=".activity.SchoolMonthlyPlannerSubActivity" />
+        <activity android:name=".activity.SchoolMonthlyPlannerActivity" />
+        <activity android:name=".activity.SchoolTrainerDailyReportSubActivity" />
+        <activity android:name=".activity.SchoolTrainerDailyReportActivity" />
+        <activity android:name=".activity.SchoolNotificationActivity" />
+        <activity android:name=".activity.SchoolAchievementsActivity" />
+        <activity android:name=".activity.SchoolHomeActivity" />
+        <activity android:name=".activity.TrainerYearlyPlannerMonthSubActivity" />
+        <activity android:name=".activity.TrainerYearlyPlannerMonthActivity" />
+        <activity android:name=".activity.TrainerMonthlyPlannerSubActivity" />
+        <activity android:name=".activity.TrainerYearlyPlannerActivity" />
+        <activity android:name=".activity.TrainerMonthlyPlannerActivity" />
+        <activity android:name=".activity.TrainerStudentActivityAssessmentBarchartActivity" />
+        <activity android:name=".activity.TrainerStudentActivityAssessmentActivity" />
+        <activity android:name=".activity.TrainerStudentAssessmentListActivity" />
+        <activity android:name=".activity.TrainerStudentAssessmentActivity" />
+        <activity
+            android:name=".activity.TrainerAddEquipmentActivity"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".activity.TrainerLeaveActivity"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".activity.TrainerGalleryActivity"
+            android:hardwareAccelerated="true" />
+        <activity android:name=".activity.TrainerPostSchoolActivity" />
+        <activity
+            android:name=".activity.TrainerHomeActivity"
+            android:hardwareAccelerated="true" />
+        <activity android:name=".activity.TrainerProfileActivity" />
+        <activity
+            android:name=".activity.TrainerAchievementsActivity"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".activity.TrainerNotificationActivity"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".activity.TrainerDailyTimeTableActivity"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".activity.TrainerStudentAttendanceActivity"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".activity.TrainerPDFActivity"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".activity.TrainerYearlyEventsActivity"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".activity.SignInActivity"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".activity.TrainerEquipmentManagementActivity"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:hardwareAccelerated="true"
+            tools:ignore="DuplicateActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".firebase.MessageReceiver"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="app.puretech.e_sport.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

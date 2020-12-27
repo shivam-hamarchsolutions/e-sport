@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Welcome Dinesh Misar"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:id="@+id/fab_school_daily_time_table"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/ripple"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="Daily Time Table"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/dailytimetable" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_margin="5dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+<!--                        <android.support.design.widget.FloatingActionButton-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_alignParentRight="true"-->
+<!--                            android:layout_centerInParent="true"-->
+<!--                            android:layout_margin="5dp"-->
+<!--                            android:backgroundTint="@color/appDarkOrange"-->
+<!--                            android:elevation="5dp"-->
+<!--                            android:visibility="gone"-->
+<!--                            android:src="@drawable/ic_next"-->
+<!--                            app:fabSize="mini"-->
+<!--                            app:rippleColor="@color/white" />-->
+                    </RelativeLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:id="@+id/fab_school_monthly_planner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/ripple"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="Monthly Planner"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/monthlyplanner" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_margin="5dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="08 Sessions"
+                            android:visibility="invisible"
+                            android:textColor="@color/LightGrey"
+                            android:textSize="14sp" />
+
+<!--                        <android.support.design.widget.FloatingActionButton-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_alignParentRight="true"-->
+<!--                            android:layout_centerInParent="true"-->
+<!--                            android:layout_margin="5dp"-->
+<!--                            android:backgroundTint="@color/appDarkOrange"-->
+<!--                            android:elevation="5dp"-->
+<!--                            android:visibility="gone"-->
+<!--                            android:src="@drawable/ic_next"-->
+<!--                            app:fabSize="mini"-->
+<!--                            app:rippleColor="@color/white" />-->
+                    </RelativeLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+          <!--  <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:id="@+id/fab_school_trainer_daily_report"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/ripple"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="Trainer Daily Report"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/trainer_report" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_margin="5dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+&lt;!&ndash;                        <android.support.design.widget.FloatingActionButton&ndash;&gt;
+&lt;!&ndash;                            android:layout_width="wrap_content"&ndash;&gt;
+&lt;!&ndash;                            android:layout_height="wrap_content"&ndash;&gt;
+&lt;!&ndash;                            android:layout_alignParentRight="true"&ndash;&gt;
+&lt;!&ndash;                            android:layout_centerInParent="true"&ndash;&gt;
+&lt;!&ndash;                            android:layout_margin="5dp"&ndash;&gt;
+&lt;!&ndash;                            android:backgroundTint="@color/appDarkOrange"&ndash;&gt;
+&lt;!&ndash;                            android:elevation="5dp"&ndash;&gt;
+&lt;!&ndash;                            android:visibility="gone"&ndash;&gt;
+&lt;!&ndash;                            android:src="@drawable/ic_next"&ndash;&gt;
+&lt;!&ndash;                            app:fabSize="mini"&ndash;&gt;
+&lt;!&ndash;                            app:rippleColor="@color/white" />&ndash;&gt;
+                    </RelativeLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>-->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:id="@+id/fab_trainer_yearly_planner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:background="@drawable/ripple"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:text="Yearly Planner"
+                        android:textSize="16sp"
+                        />
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/yearlyplanner" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_margin="5dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="80 Sessions"
+                            android:gravity="center"
+                            android:visibility="invisible"
+                            android:textColor="@color/LightGrey"
+                            android:textSize="14sp" />
+
+                        <!--                        <android.support.design.widget.FloatingActionButton-->
+                        <!--                            android:layout_width="wrap_content"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:layout_alignParentRight="true"-->
+                        <!--                            android:layout_centerInParent="true"-->
+                        <!--                            android:layout_margin="5dp"-->
+                        <!--                            android:backgroundTint="@color/appDarkOrange"-->
+                        <!--                            android:elevation="5dp"-->
+                        <!--                            android:src="@drawable/ic_next"-->
+                        <!--                            app:fabSize="mini"-->
+                        <!--                            app:rippleColor="@color/white" />-->
+                    </RelativeLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:id="@+id/fab_school_student_attendance"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/ripple"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="Student Attendance"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/student_att" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_margin="5dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+<!--                        <android.support.design.widget.FloatingActionButton-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_centerInParent="true"-->
+<!--                            android:layout_margin="5dp"-->
+<!--                            android:backgroundTint="@color/appDarkOrange"-->
+<!--                            android:elevation="5dp"-->
+<!--                            android:src="@drawable/ic_next"-->
+<!--                            app:fabSize="mini"-->
+<!--                            android:visibility="gone"-->
+<!--                            app:rippleColor="@color/white" />-->
+                    </RelativeLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:id="@+id/fab_school_notifications"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/ripple"
+                    android:clickable="true"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="Notifications"
+                        android:textSize="16sp"
+                        />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/newnotification" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_margin="5dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"
+                            />
+
+<!--                        <android.support.design.widget.FloatingActionButton-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_alignParentRight="true"-->
+<!--                            android:layout_centerInParent="true"-->
+<!--                            android:layout_margin="5dp"-->
+<!--                            android:backgroundTint="@color/appDarkOrange"-->
+<!--                            android:elevation="5dp"-->
+<!--                            android:src="@drawable/ic_next"-->
+<!--                            app:fabSize="mini"-->
+<!--                            android:visibility="gone"-->
+<!--                            app:rippleColor="@color/white" />-->
+                    </RelativeLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:id="@+id/fab_school_Achievements"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/ripple"
+                    android:clickable="true"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="Achievements"
+                        android:textSize="16sp"
+                        />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/trophy" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_margin="5dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+<!--                        <android.support.design.widget.FloatingActionButton-->
+<!--                           -->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_alignParentRight="true"-->
+<!--                            android:layout_centerInParent="true"-->
+<!--                            android:layout_margin="5dp"-->
+<!--                            android:backgroundTint="@color/appDarkOrange"-->
+<!--                            android:elevation="5dp"-->
+<!--                            android:src="@drawable/ic_next"-->
+<!--                            app:fabSize="mini"-->
+<!--                            android:visibility="gone"-->
+<!--                            app:rippleColor="@color/white" />-->
+                    </RelativeLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

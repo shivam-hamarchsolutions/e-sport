@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nev_SchoolHome"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nev_SchoolTrainerAttendance"
+            android:icon="@drawable/ic_student_assessment"
+            android:title="Trainer Attendance" />
+        <item
+            android:id="@+id/nev_SchoolTrainerLeaveApplication"
+            android:icon="@drawable/ic_equipment"
+            android:title="Trainer Leave Application" />
+        <item
+            android:id="@+id/nev_SchoolTrainerStudentAssessment"
+            android:icon="@drawable/ic_student_assessment"
+            android:title="Student Assessment" />
+        <item
+            android:id="@+id/nev_SchoolTrainerDailyReport"
+            android:icon="@drawable/trainer_report"
+            android:title="Trainer Daily Report" />
+
+        <item
+            android:id="@+id/nev_SchoolYearlyEvents"
+            android:icon="@drawable/ic_passward_visibility_black_24dp"
+            android:title="Yearly Events" />
+        <item
+            android:id="@+id/nev_TrainerPostSchoolActivity"
+            android:icon="@drawable/ic_passward_visibility_black_24dp"
+            android:title="Non Scholastic Activity" />
+        <item
+            android:id="@+id/nev_SchoolGallery"
+            android:icon="@drawable/ic_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nev_SchoolEquipmentStock"
+            android:icon="@drawable/ic_leave_apply"
+            android:title="Equipment Stock" />
+        <item
+            android:id="@+id/nev_SchoolAboutUs"
+            android:icon="@drawable/ic_about_us"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nev_SchoolRateUs"
+            android:icon="@drawable/ic_rate_us"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/nev_SchoolShare"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Share" />
+        <item
+            android:id="@+id/nev_TrainerLogout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

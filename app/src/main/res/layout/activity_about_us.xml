@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.AboutUsActivity">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+     <androidx.appcompat.widget.Toolbar
+         android:id="@+id/toolbar_home"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@color/colorPrimaryDark"
+         android:theme="@style/ToolbarTheme"
+         app:navigationIcon="?attr/homeAsUpIndicator"
+         app:title="About Us"
+         app:titleTextColor="@color/white"
+         tools:targetApi="lollipop" >
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="40dp"
+             android:layout_gravity="right"
+             android:layout_margin="10dp"
+             android:adjustViewBounds="true"
+             android:elevation="5dp"
+             android:src="@mipmap/ic_launcher_round" />
+     </androidx.appcompat.widget.Toolbar>
+     <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_margin="5dp">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             android:layout_margin="10dp">
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal">
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:layout_margin="10dp"
+                     android:src="@drawable/team_culture"/>
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Team &amp; Culture"
+                     android:layout_gravity="center"
+                     android:textColor="@color/black"
+                     android:layout_margin="5dp"
+                     android:textSize="20sp"/>
+             </LinearLayout>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:text="Esport is a team of sports professionals dedicated towards creating, implementing and evaluating research–based programs that promotes lifelong wellness through Sports Education. Team Esport strives to enhance fitness of children/adolescents by disseminating research  based physical education activity, early childhood sports program, safe and healthy students programs , structured curriculum for teachers and various other sports program serving through Preschool till grade 5 students."/>
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:background="@color/LightGrey"
+                 android:layout_margin="5dp"></View>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal">
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:layout_margin="10dp"
+                     android:src="@drawable/our_vision"/>
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Our Vision"
+                     android:layout_gravity="center"
+                     android:textColor="@color/black"
+                     android:layout_margin="5dp"
+                     android:textSize="20sp"/>
+             </LinearLayout>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:text="1. To facilitate professional practice in Sports Education and promote research based Physical Education Programprofessional practice in Sports Education and promote research based Physical Education Program. \n 2. To provide enriching program which will accelerate the journey of every child towards fitness and physical literacy by igniting their passion towards SPORTS."/>
+
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:background="@color/LightGrey"
+                 android:layout_margin="5dp"></View>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal">
+                 <ImageView
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+                     android:layout_margin="10dp"
+                     android:src="@drawable/our_mission"/>
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:layout_margin="5dp"
+                     android:text="Our Mission"
+                     android:textColor="@color/black"
+                     android:textSize="20sp"
+                      />
+             </LinearLayout>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="5dp"
+                 android:text="1. To nurture India’s budding sports talent by providing holistic support to enhance their performance, while creating awareness about sports and promoting a sports culture across  our Nation.
+\n 2. To create a Nation overcoming regional barriers and lead them towards an Healthy IQ,EQ ,AQ and an active  lifestyle."/>
+
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:background="@color/LightGrey"
+                 android:layout_margin="5dp"></View>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Follow Us"
+                     android:layout_gravity="center"
+                     android:textSize="20sp"
+                     android:textColor="@color/black"
+                     android:layout_margin="10dp"/>
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:layout_margin="10dp"
+                 android:layout_gravity="center">
+                 <ImageView
+                     android:id="@+id/iv_facebook"
+                     android:layout_width="40dp"
+                     android:layout_height="40dp"
+                     android:src="@drawable/fb"
+                     android:clickable="true"
+                     android:padding="5dp"
+                     android:layout_gravity="center"
+                     android:background="@drawable/ripple"
+                     android:layout_margin="10dp"/>
+                 <ImageView
+                     android:id="@+id/iv_instagram"
+                     android:layout_width="40dp"
+                     android:layout_height="40dp"
+                     android:clickable="true"
+                     android:padding="5dp"
+                     android:layout_gravity="center"
+                     android:background="@drawable/ripple"
+                     android:src="@drawable/inst"
+                     android:layout_margin="10dp"/>
+                 <ImageView
+                     android:id="@+id/iv_twitter"
+                     android:layout_width="40dp"
+                     android:layout_height="40dp"
+                     android:clickable="true"
+                     android:padding="5dp"
+                     android:layout_gravity="center"
+                     android:background="@drawable/ripple"
+                     android:src="@drawable/twitter"
+                     android:layout_margin="10dp"/>
+             </LinearLayout>
+         </LinearLayout>
+     </ScrollView>
+ </LinearLayout>
+</RelativeLayout>

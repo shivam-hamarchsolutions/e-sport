@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:id="@+id/tv_sub_event_name"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text=""
+                   android:textAllCaps="true"
+                   android:layout_margin="3dp"
+                   android:textColor="@color/appTextColor"
+                   android:fontFamily="sans-serif-condensed"
+                   android:textSize="16sp"
+                   android:layout_centerInParent="true"
+                   android:layout_alignParentLeft="true"
+                   android:gravity="center"/>
+               <TextView
+                   android:id="@+id/tv_day"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="3dp"
+                   android:textColor="@color/appTextColor"
+                   android:fontFamily="sans-serif-condensed"
+                   android:layout_centerInParent="true"
+                   android:layout_alignParentRight="true"
+                   android:gravity="center"/>
+           </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_grade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grade 01 to 06"
+                    android:layout_margin="3dp"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="sans-serif-condensed" />
+                <TextView
+                    android:id="@+id/tv_trainer_yearly_event_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="06 jun 2019"
+                    android:layout_margin="3dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif-condensed" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/LightGrey"/>
+            <TextView
+                android:id="@+id/tv_venue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="Interaction with parents for students progress"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="3dp">
+                <TextView
+                    android:id="@+id/tv_session"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

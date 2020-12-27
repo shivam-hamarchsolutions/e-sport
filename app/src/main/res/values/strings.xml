@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">E-Sport</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="loading">Loading..</string>
+    <string name="todo">TODO</string>
+    <string name="trainer">Trainer</string>
+    <string name="i_am">I am</string>
+    <string name="school">School</string>
+    <string name="parents">Parents</string>
+    <string name="sign_in">Sign in</string>
+    <string name="e_sport">E-Sport</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="new_user">New user ?</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="please_wait">Please Wait</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="swimming_competition">Swimming Competition</string>
+    <string name="dinesh_misar">Dinesh Misar</string>
+    <string name="inter_school_level">Inter school level</string>
+    <string name="year_2019_2020">Year 2019-2020</string>
+    <string name="rank">Rank</string>
+    <string name="_01">01</string>
+    <string name="dinesh_m_misar">Dinesh M Misar</string>
+
+    <string-array name="array_equp">
+        <item>Cricket</item>
+        <item>Cricket tennis ball</item>
+        <item>Foot ball</item>
+    </string-array>
+    <string-array name="array_equp_size">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+    </string-array>
+    <string-array name="array_class">
+        <item>Sr.KG</item>
+        <item>Jr.KG</item>
+    </string-array>
+    <string-array name="array_division">
+        <item>A Division</item>
+        <item>B Division</item>
+    </string-array>
+    <string-array name="array_term">
+        <item>Term 1</item>
+        <item>Term 2</item>
+    </string-array>
+
+</resources>

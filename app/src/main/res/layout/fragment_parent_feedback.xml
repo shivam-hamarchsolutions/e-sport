@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.ParentFeedbackFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_margin="10dp">
+       <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/name_text_"
+           style="@style/LoginTextInputLayoutStyle"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="16dp"
+           android:textColorHint="@color/appTextColor"
+           android:theme="@style/InputLayoutStyle">
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/et_feed_back"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Feedback"
+               android:inputType="textMultiLine"
+               android:lines="20"
+               android:gravity="top"
+               android:textColor="@color/appTextColor"
+               app:boxStrokeColor="#fff" />
+       </com.google.android.material.textfield.TextInputLayout>
+
+   </LinearLayout>
+    <Button
+        android:id="@+id/btn_Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/round_button"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Submit"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        tools:ignore="UnusedAttribute" />
+</RelativeLayout>

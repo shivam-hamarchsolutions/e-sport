@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        android:background="@drawable/gray_box">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="2dp">
+            <ImageView
+                android:id="@+id/iv_trainer_gallery_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/no_gallery"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:id="@+id/tv_Trainer_gallery_date"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="As on 12 jun 2019"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/appTextColor"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/imagebox"
+            android:layout_weight="1"
+            android:elevation="5dp"
+            android:visibility="gone"
+            android:layout_margin="2dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:src="@drawable/sporttwo" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/imagebox"
+            android:layout_weight="1"
+            android:elevation="5dp"
+            android:visibility="gone"
+            android:layout_margin="2dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:src="@drawable/sportthree" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

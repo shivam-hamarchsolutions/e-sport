@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nev_Parent_dashboard"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nev_Parent_StudentAssessment"
+            android:icon="@drawable/ic_student_assessment"
+            android:title="Student Assessment"
+            android:visible="true" />
+        <item
+            android:id="@+id/nev_Parent_student_attendance"
+            android:icon="@drawable/ic_student_assessment"
+            android:title="Student Attendance"
+            android:visible="false" />
+        <item
+            android:id="@+id/nev_Parent_achievements"
+            android:icon="@drawable/ic_equipment"
+            android:title="Achievements"
+            android:visible="false" />
+        <item
+            android:id="@+id/nev_Parent_yearly_event"
+            android:icon="@drawable/ic_passward_visibility_black_24dp"
+            android:title="Yearly Event" />
+        <item
+            android:id="@+id/nev_TrainerPostSchoolActivity"
+            android:icon="@drawable/ic_passward_visibility_black_24dp"
+            android:title="Non Scholastic Activity" />
+        <item
+            android:id="@+id/nev_ParentGallery"
+            android:icon="@drawable/ic_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nev_Parent_feedback"
+            android:icon="@drawable/ic_leave_apply"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nev_Parent_notifaction"
+            android:icon="@drawable/ic_notifications_active_black_24dp"
+            android:title="Notification"
+            android:visible="false" />
+        <item
+            android:id="@+id/nev_Parent_about_us"
+            android:icon="@drawable/ic_about_us"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nev_ParentRateUs"
+            android:icon="@drawable/ic_rate_us"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/nev_ParentShare"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Share" />
+        <item
+            android:id="@+id/nev_ParentLogout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>
